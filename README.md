@@ -10,3 +10,6 @@ More In depth learning about JSX. basicaly a sepcial dialect of Js. It renders c
 Learned about React prop system. It allows us to customize and configure components in our application. It gives us the ability to reuse componetns with different data. Configure the component depending on the ui requirement. Also it allows us to pass data from the parent to the child components. 
 # 11/24/18
 Within components We can update the state of a component depending on revelant data associated with the components. The dofference between functional components vs class components. Is when we can to just render JSX to show some content we use functional component. While class component is best when we want to build some logic or handle component state. The only time we want to assign value to a component direcelty is through the constructor. if we want to update a state for a given component we use the setState() method. 
+# 11/26/18
+Class componets are easier to organize code and gives the ability to handle state. Class componets also allows to better use component 
+lifecyele. Functional components are best to be used to render content to the user. callback functions are function that will be called at some point in time. If we are passing a callback function inside a event handler we do not add parenthesis because it will called every time the component is rendered. 
