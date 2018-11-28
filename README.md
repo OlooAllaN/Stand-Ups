@@ -13,3 +13,18 @@ Within components We can update the state of a component depending on revelant d
 # 11/26/18
 Class componets are easier to organize code and gives the ability to handle state. Class componets also allows to better use component 
 lifecyele. Functional components are best to be used to render content to the user. callback functions are function that will be called at some point in time. If we are passing a callback function inside a event handler we do not add parenthesis because it will called every time the component is rendered. 
+
+# 11/27/18
+Call back functions get called at some point in time in the future.
+We never put parenthesis to functions we passes in event handlers because they
+are callback functions. Everytime we render the componenet the function will be called. 
+
+controlled vs Uncontrolled
+Again any time we call setState the component will re render itself because 
+your updating the state. 
+
+Controlled- As developers we want to centeralize information inside our React
+components than in html. We dont want to store data in the DOM. 
+We want React driving and storing our data in components. 
+this is always going to be equal to the instance of a class. 
+When looking at the value of this inside a function. You look where the function being called. 
