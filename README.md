@@ -31,7 +31,7 @@ When looking at the value of this inside a function. You look where the function
 
 # 12/1/18
 Arrow functions do NOT define their own this, they go to enclosing scope and look for it just as they would with any variable you try to use in their scope.
-When we pass in props and  callback function that we author we can call themanything we want. 
+When we pass values in props and callback function that we author we can call them anything we want. 
 REACTS Job is showing content to the user and handling user interaction. Not to ajax requests.
 lecial scope is what variables I have access to. Where variables are being defined
 Context is the value of this.
