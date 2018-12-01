@@ -29,7 +29,7 @@ We want React driving and storing our data in components.
 this is always going to be equal to the instance of a class. 
 When looking at the value of this inside a function. You look where the function being called. 
 
-#12/1/2018
+# 12/1/18
 Arrow functions do NOT define their own this, they go to enclosing scope and look for it just as they would with any variable you try to use in their scope.
 When we pass in props and  callback function that we author we can call themanything we want. 
 REACTS Job is showing content to the user and handling user interaction. Not to ajax requests.
