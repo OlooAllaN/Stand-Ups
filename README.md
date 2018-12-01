@@ -28,3 +28,13 @@ components than in html. We dont want to store data in the DOM.
 We want React driving and storing our data in components. 
 this is always going to be equal to the instance of a class. 
 When looking at the value of this inside a function. You look where the function being called. 
+
+#12/1/2018
+Arrow functions do NOT define their own this, they go to enclosing scope and look for it just as they would with any variable you try to use in their scope.
+When we pass in props and  callback function that we author we can call themanything we want. 
+REACTS Job is showing content to the user and handling user interaction. Not to ajax requests.
+lecial scope is what variables I have access to. Where variables are being defined
+Context is the value of this.
+Axios 3rd party package 
+fetch function built into modern browsers
+
