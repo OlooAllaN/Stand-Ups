@@ -38,3 +38,13 @@ Context is the value of this.
 Axios 3rd party package 
 fetch function built into modern browsers
 
+# 12/3/18
+Learned how to pass in data from axios request using props form parent to child. 
+Pass in a list of data and render them dynamically on the browser.
+how to use the ref system to access the dom from a rendered component. 
+using the .map function to return a new list of array without using a forloop. 
+css grid system. 
+destructing objects using es6 feature for better code readbility. 
+
+
+
