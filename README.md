@@ -49,3 +49,7 @@ destructing objects using es6 feature for better code readbility.
 # 12/5/18
 Solidfying more on parent and child components. To access component elements within the dom. 
 Use the ref system for DOM node element. More on http request using axios. Implementing a Youtube search app.
+
+
+# 12/8/18
+Implemented a video search application. This app used youtube api to respond to a user request for a specific video. Learned about how to pass information from children back to parent using callback function. This alows for communication between child and parent. 
