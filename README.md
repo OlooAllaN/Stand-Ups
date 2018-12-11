@@ -53,3 +53,21 @@ Use the ref system for DOM node element. More on http request using axios. Imple
 
 # 12/8/18
 Implemented a video search application. This app used youtube api to respond to a user request for a specific video. Learned about how to pass information from children back to parent using callback function. This alows for communication between child and parent. 
+
+# 12/11/2018
+Node-
+	JavaScript runtime used to execute code outside of the browser
+	JS was originally always excuted on the browser. To make website interactivity. 
+	Node is simply used to excute code outside the web browser.
+	
+express-
+	Library that runs in the Node runtime. Has helpers to make dealing with Http traffic. 
+	express a collection of function and helpers to make http accepts of Node js easier to work with.
+	express looks at request and decided what chunk of code will handle a respond to request.
+	we write a collection of route handlers responds to request. Different route hanlders respond to incoming
+	request. Generate a resposnse to the incoming request. 
+	
+-Dynamic port binding
+	on server side we use commonJS modules. System implemented in node js to share files. 
+	enviromnet variables are variables that are set in the underlying runtime node is running on. 
+	Heroku tells which port our app will use. proces.env.PORT.
