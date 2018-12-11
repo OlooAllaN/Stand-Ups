@@ -67,7 +67,7 @@ express-
 	we write a collection of route handlers responds to request. Different route hanlders respond to incoming
 	request. Generate a resposnse to the incoming request. 
 	
--Dynamic port binding
+Dynamic port binding-
 	on server side we use commonJS modules. System implemented in node js to share files. 
 	enviromnet variables are variables that are set in the underlying runtime node is running on. 
 	Heroku tells which port our app will use. proces.env.PORT.
