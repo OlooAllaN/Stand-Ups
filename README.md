@@ -56,9 +56,9 @@ Implemented a video search application. This app used youtube api to respond to 
 
 # 12/11/2018
 Node-
-	JavaScript runtime used to execute code outside of the browser
-	JS was originally always excuted on the browser. To make website interactivity. 
-	Node is simply used to excute code outside the web browser.
+      JavaScript runtime used to execute code outside of the browser
+      JS was originally always excuted on the browser. To make website interactivity. 
+      Node is simply used to excute code outside the web browser.
 	
 express-
 	Library that runs in the Node runtime. Has helpers to make dealing with Http traffic. 
@@ -71,3 +71,12 @@ Dynamic port binding-
 	on server side we use commonJS modules. System implemented in node js to share files. 
 	enviromnet variables are variables that are set in the underlying runtime node is running on. 
 	Heroku tells which port our app will use. proces.env.PORT.
+	
+PassportJS-
+	The core base passport library or module is a set of very general functions and objects. 
+	That make authentication work nicely inside express. Generic logic that can handle the idea of authentication
+	with express. Passport a general helper library for handling auth express apps
+	passports strategy is for authenticating with one very specific method
+	(email/password, google and facebook)
+	Different strategy offer different methods of signing logic.
+	strategy is a module that helps you authenticate with one specific provider. 
