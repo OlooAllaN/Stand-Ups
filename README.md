@@ -80,3 +80,42 @@ PassportJS-
 	(email/password, google and facebook)
 	Different strategy offer different methods of signing logic.
 	strategy is a module that helps you authenticate with one specific provider. 
+	
+# 12/15/2018
+ -The Theory of Authentication
+	Http is stateless.
+	We communicate between client and web server by http request.
+	Known as REST(REPRESENTATIONAL STATE TRANSFER)
+	AJAX Request are still Http request and stateless.
+	This means that any two given request that make Http request.
+	Have no way of identifying or share information between two seperate request.
+	By default information between request are not shared.
+	So we cant identitfy who is making any request between any given number of request. 
+	
+	We cannot rely upon HTTp to authenticate users. This is due to Http being stateless. It does not
+	keep track of information being sent to the webserver. The solution is the server providing some token 
+	that it can trust upon authenticating users. 
+	
+	 -Cookie based authentication
+	 the entire idea behind cookie authentication. Is that the web server 
+	 puts some identifying piece of information into the users cookie that is going
+	 to be cached in the browser memory. This piece of information will be set in some 
+	 property within the request header that will be used to identify users during any request 
+	 sent to our web server. The web server will use this cookie to authenticate our users .
+	 
+	 -OAuth Flow
+	 OAuth main purpose is to give us a unique identitfying token that we trust.
+	 
+	 -MongoDb
+	 stores its information in collection. 
+	 within collection we have many records
+	 every record is a plan JS Objects: Key value pairs 
+	 Defining characteristis of MongoDb is the fact that is schema less. 
+	 Meaning every record can have its own distinct set of properties. Unlike
+	 relational database system tables which must have a schema before any data is inserted in a table.
+	 
+	 -MongooseDb
+	 A model class created with Mongoose represnets an entire MongoDb collection. 
+	 model class is used to access a single collection sitting inside MongoDb Model class. 
+	 Mongoose would classified as an ORM that helps maps models to collection. 
+	 Model instances represnets a record in a collection. 
