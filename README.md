@@ -122,11 +122,11 @@ PassportJS-
 	 
 	
 #12/22/2018
-  middleware are small function that can be used to modify incoming request to our app before they are sent of to route handlers.
-  middleware do preprocessing incoming request before they are sent off to different route handlers
+middleware are small function that can be used to modify incoming request to our app before they are sent of to route handlers.
+middleware do preprocessing incoming request before they are sent off to different route handlers
 
-   Architecture 
-   We have our React app front end side
-   and express server back end side
-  -React front side bundles our different js files into one front app to display
-  -express back end side handles business logic we create new users and authentication.
+Architecture 
+We have our React app front end side
+and express server back end side
+-React front side bundles our different js files into one front app to display
+-express back end side handles business logic we create new users and authentication.
