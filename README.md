@@ -121,7 +121,7 @@ PassportJS-
 	 Model instances represnets a record in a collection. 
 	 
 	
-#12/22/2018
+# 12/22/2018
 middleware are small function that can be used to modify incoming request to our app before they are sent of to route handlers.
 middleware do preprocessing incoming request before they are sent off to different route handlers
 
