@@ -130,3 +130,24 @@ We have our React app front end side
 and express server back end side
 -React front side bundles our different js files into one front app to display
 -express back end side handles business logic we create new users and authentication.
+
+# 12/31/2018
+Redux
+	-State management library
+	-makes creating complex applications easier
+	-Stablize complexity as an application begins to grow. 
+	
+	
+Redux Cycle
+	- Action creator -> Action -> dispatch -> reducers -> state
+	- Action creator - its purpose is to create a action. its a function that returns
+	 a plain JS Object. 
+	 Action- its purpose is to describe some change in the data we want to make a change
+	 Dispatcher - its purpose take an action makes a copies of the action and pass it to different
+	 reducers in the application.
+	 Reducers- its responsible for taking existing data and a action updating that data based on the logic
+	 state- centarilized location for storing data processed by the reducers.
+	-every time we want to change the state of our app we call action creator
+	 a redux dispatch runs the whole redux cycle.	 
+
+	 
